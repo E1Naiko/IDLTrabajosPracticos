@@ -1,48 +1,76 @@
-# Prerequisites
-*.d
+# ==========================================
+# Archivos temporales y de compilación de Quartus II
+# ==========================================
+db/
+incremental_db/
+simulation/
+greybox_tmp/
+hc_output/
+/output_files/
 
-# Object files
+# Reportes y bitácoras de texto de Quartus
+*.rpt
+*.summary
+*.sof
+*.pof
+*.jdi
+*.pin
+*.done
+*.sld
+*.smsg
+*.qws
+
+# Archivos del sistema y configuraciones locales del usuario
+*.bak
+*.orig
+
+# ==========================================
+# Prerequisites & Object files
+# ==========================================
+*.d
 *.o
 *.ko
 *.obj
 *.elf
 
-# Linker output
+# ==========================================
+# Linker output & Precompiled Headers
+# ==========================================
 *.ilk
 *.map
 *.exp
-
-# Precompiled Headers
 *.gch
 *.pch
 
-# Libraries
+# ==========================================
+# Libraries & Shared objects (inc. Windows DLLs)
+# ==========================================
 *.lib
 *.a
 *.la
 *.lo
-
-# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
+# ==========================================
+# Executables & Debug files
+# ==========================================
 *.exe
 *.out
 *.app
 *.i*86
 *.x86_64
 *.hex
-
-# Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
 
+# ==========================================
 # Kernel Module Compile Results
+# ==========================================
 *.mod*
 *.cmd
 .tmp_versions/
@@ -51,7 +79,9 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# --- GNU Octave ---
+# ==========================================
+# GNU Octave / MATLAB
+# ==========================================
 *.oct               # compiled C++ oct-files
 *.mex*              # compiled MEX files (.mex, .mexa64, .mexw64, .mexmaci64, etc.)
 *.mat               # binary Octave/MATLAB data files (often huge; comment out if you want to track them)
