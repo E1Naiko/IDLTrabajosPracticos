@@ -19,6 +19,22 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -320 368 -152 384)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "CLK" (rect 5 0 27 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
 (symbol
 	(rect 528 -64 624 32)
 	(text "Tp2Grupo3-Semaforo" (rect 5 0 128 14)(font "Arial" (font_size 8)))
@@ -229,6 +245,35 @@ applicable agreement for further details.
 		(circle (rect 31 12 39 20))
 	)
 )
+(symbol
+	(rect -112 344 24 440)
+	(text "Tp2Grupo3_Contador35" (rect 5 0 141 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "Verde30p" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "Verde30p" (rect 59 27 115 41)(font "Arial" (font_size 8)))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "Amarillo5p" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "Amarillo5p" (rect 56 43 115 57)(font "Arial" (font_size 8)))
+		(line (pt 136 48)(pt 120 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 80))
+	)
+)
 (connector
 	(pt 552 88)
 	(pt 552 96)
@@ -262,6 +307,10 @@ applicable agreement for further details.
 (connector
 	(pt 504 384)
 	(pt 552 384)
+)
+(connector
+	(pt -112 376)
+	(pt -152 376)
 )
 (junction (pt 504 72))
 (junction (pt 504 384))
