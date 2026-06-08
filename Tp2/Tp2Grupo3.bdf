@@ -539,7 +539,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 560 -72 624 -24)
+	(rect 568 -72 632 -24)
 	(text "NAND3" (rect 1 0 32 10)(font "Arial" (font_size 6)))
 	(text "inst30" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -579,7 +579,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 248 -200 408 -104)
+	(rect 232 -408 392 -312)
 	(text "DecodificadorSemaforo" (rect 5 0 139 14)(font "Arial" (font_size 8)))
 	(text "inst36" (rect 8 80 37 92)(font "Arial" ))
 	(port
@@ -622,7 +622,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 128 -200 224 -104)
+	(rect 128 -408 224 -312)
 	(text "MaquinaDeEstado" (rect 5 0 106 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -657,6 +657,149 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 80 80))
 	)
 )
+(symbol
+	(rect 488 448 536 480)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst31" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
+(symbol
+	(rect 488 240 536 272)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst32" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
+(symbol
+	(rect 488 136 536 168)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst33" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
+(symbol
+	(rect 488 -72 536 -40)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst34" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
+(symbol
+	(rect 144 -184 296 -56)
+	(text "MaquinaDeParpadeo" (rect 5 0 121 14)(font "Arial" (font_size 8)))
+	(text "inst49" (rect 8 112 37 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "AMARILLO[0]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "AMARILLO[0]" (rect 55 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(port
+		(pt 152 48)
+		(output)
+		(text "AMARILLO[1]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "AMARILLO[1]" (rect 55 43 131 57)(font "Arial" (font_size 8)))
+		(line (pt 152 48)(pt 136 48))
+	)
+	(port
+		(pt 152 64)
+		(output)
+		(text "AMARILLO[2]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "AMARILLO[2]" (rect 55 59 131 73)(font "Arial" (font_size 8)))
+		(line (pt 152 64)(pt 136 64))
+	)
+	(port
+		(pt 152 80)
+		(output)
+		(text "AMARILLO[3]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "AMARILLO[3]" (rect 55 75 131 89)(font "Arial" (font_size 8)))
+		(line (pt 152 80)(pt 136 80))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 112))
+	)
+)
 (connector
 	(pt 432 192)
 	(pt 432 296)
@@ -675,20 +818,12 @@ applicable agreement for further details.
 	(pt 552 472)
 )
 (connector
-	(pt 408 464)
-	(pt 560 464)
-)
-(connector
 	(pt 552 312)
 	(pt 552 264)
 )
 (connector
 	(pt 560 296)
 	(pt 560 272)
-)
-(connector
-	(pt 408 256)
-	(pt 560 256)
 )
 (connector
 	(pt 448 208)
@@ -708,28 +843,8 @@ applicable agreement for further details.
 	(pt 560 168)
 )
 (connector
-	(pt 408 152)
-	(pt 560 152)
-)
-(connector
 	(pt 552 160)
 	(pt 560 160)
-)
-(connector
-	(pt 552 0)
-	(pt 552 -48)
-)
-(connector
-	(pt 560 -16)
-	(pt 560 -40)
-)
-(connector
-	(pt 408 -56)
-	(pt 560 -56)
-)
-(connector
-	(pt 552 -48)
-	(pt 560 -48)
 )
 (connector
 	(pt 432 296)
@@ -739,38 +854,6 @@ applicable agreement for further details.
 (connector
 	(pt 448 312)
 	(pt 448 520)
-	(bus)
-)
-(connector
-	(pt 448 -168)
-	(pt 408 -168)
-	(bus)
-)
-(connector
-	(pt 432 -152)
-	(pt 408 -152)
-	(bus)
-)
-(connector
-	(text "VERDE[0..3]" (rect 431 -105 443 -42)(font "Arial" )(vertical))
-	(pt 448 -168)
-	(pt 448 0)
-	(bus)
-)
-(connector
-	(pt 448 0)
-	(pt 448 208)
-	(bus)
-)
-(connector
-	(text "AMARILLO[0..3]" (rect 416 -110 428 -30)(font "Arial" )(vertical))
-	(pt 432 -152)
-	(pt 432 -16)
-	(bus)
-)
-(connector
-	(pt 432 -16)
-	(pt 432 192)
 	(bus)
 )
 (connector
@@ -789,11 +872,6 @@ applicable agreement for further details.
 	(pt 552 520)
 )
 (connector
-	(text "VERDE[0]" (rect 474 -16 524 -4)(font "Arial" ))
-	(pt 448 0)
-	(pt 552 0)
-)
-(connector
 	(text "AMARILLO[1]" (rect 474 176 541 188)(font "Arial" ))
 	(pt 432 192)
 	(pt 560 192)
@@ -801,15 +879,6 @@ applicable agreement for further details.
 (connector
 	(pt 560 192)
 	(pt 680 192)
-)
-(connector
-	(text "AMARILLO[0]" (rect 474 -32 541 -20)(font "Arial" ))
-	(pt 432 -16)
-	(pt 560 -16)
-)
-(connector
-	(pt 560 -16)
-	(pt 680 -16)
 )
 (connector
 	(text "AMARILLO[2]" (rect 474 280 541 292)(font "Arial" ))
@@ -858,10 +927,6 @@ applicable agreement for further details.
 	(pt 688 520)
 )
 (connector
-	(pt 624 -48)
-	(pt 688 -48)
-)
-(connector
 	(pt 624 160)
 	(pt 688 160)
 )
@@ -886,26 +951,6 @@ applicable agreement for further details.
 	(pt 680 504)
 )
 (connector
-	(pt 224 -168)
-	(pt 248 -168)
-)
-(connector
-	(pt 224 -152)
-	(pt 248 -152)
-)
-(connector
-	(pt 224 -136)
-	(pt 248 -136)
-)
-(connector
-	(pt 408 152)
-	(pt 408 256)
-)
-(connector
-	(pt 408 256)
-	(pt 408 464)
-)
-(connector
 	(pt 408 104)
 	(pt -24 104)
 )
@@ -914,24 +959,8 @@ applicable agreement for further details.
 	(pt -24 -48)
 )
 (connector
-	(pt 128 -168)
-	(pt 112 -168)
-)
-(connector
-	(pt 112 -168)
-	(pt 112 16)
-)
-(connector
 	(pt 96 16)
 	(pt 112 16)
-)
-(connector
-	(pt 408 -56)
-	(pt 408 104)
-)
-(connector
-	(pt 408 104)
-	(pt 408 152)
 )
 (connector
 	(pt -24 -48)
@@ -970,10 +999,6 @@ applicable agreement for further details.
 	(pt 720 32)
 )
 (connector
-	(pt 552 0)
-	(pt 640 0)
-)
-(connector
 	(pt 640 0)
 	(pt 688 0)
 )
@@ -998,20 +1023,54 @@ applicable agreement for further details.
 	(pt 800 376)
 )
 (connector
+	(pt 552 0)
+	(pt 552 -48)
+)
+(connector
+	(pt 568 -16)
+	(pt 568 -40)
+)
+(connector
+	(pt 688 -48)
+	(pt 632 -48)
+)
+(connector
+	(text "VERDE[0]" (rect 474 -16 524 -4)(font "Arial" ))
+	(pt 448 0)
+	(pt 552 0)
+)
+(connector
+	(pt 552 0)
+	(pt 640 0)
+)
+(connector
+	(text "AMARILLO[0]" (rect 474 -32 541 -20)(font "Arial" ))
+	(pt 432 -16)
+	(pt 568 -16)
+)
+(connector
+	(pt 568 -16)
+	(pt 680 -16)
+)
+(connector
+	(pt 552 -48)
+	(pt 568 -48)
+)
+(connector
+	(pt 640 360)
+	(pt 648 360)
+)
+(connector
+	(pt 640 312)
+	(pt 640 360)
+)
+(connector
 	(pt 696 360)
 	(pt 720 360)
 )
 (connector
 	(pt 720 360)
 	(pt 800 360)
-)
-(connector
-	(pt 648 360)
-	(pt 640 360)
-)
-(connector
-	(pt 640 360)
-	(pt 640 312)
 )
 (connector
 	(pt 552 312)
@@ -1021,6 +1080,143 @@ applicable agreement for further details.
 	(pt 640 312)
 	(pt 688 312)
 )
+(connector
+	(pt 560 464)
+	(pt 536 464)
+)
+(connector
+	(pt 408 464)
+	(pt 488 464)
+)
+(connector
+	(pt 560 256)
+	(pt 536 256)
+)
+(connector
+	(pt 408 256)
+	(pt 488 256)
+)
+(connector
+	(pt 408 256)
+	(pt 408 464)
+)
+(connector
+	(pt 560 152)
+	(pt 536 152)
+)
+(connector
+	(pt 408 152)
+	(pt 488 152)
+)
+(connector
+	(pt 408 152)
+	(pt 408 256)
+)
+(connector
+	(pt 408 -56)
+	(pt 488 -56)
+)
+(connector
+	(pt 408 -56)
+	(pt 408 104)
+)
+(connector
+	(pt 408 104)
+	(pt 408 152)
+)
+(connector
+	(pt 536 -56)
+	(pt 568 -56)
+)
+(connector
+	(pt 432 -16)
+	(pt 432 192)
+	(bus)
+)
+(connector
+	(pt 112 -376)
+	(pt 128 -376)
+)
+(connector
+	(pt 112 16)
+	(pt 112 -376)
+)
+(connector
+	(pt 224 -376)
+	(pt 232 -376)
+)
+(connector
+	(pt 224 -360)
+	(pt 232 -360)
+)
+(connector
+	(pt 224 -344)
+	(pt 232 -344)
+)
+(connector
+	(pt 448 -376)
+	(pt 392 -376)
+	(bus)
+)
+(connector
+	(text "VERDE[0..3]" (rect 431 -105 443 -42)(font "Arial" )(vertical))
+	(pt 448 -376)
+	(pt 448 0)
+	(bus)
+)
+(connector
+	(pt 448 0)
+	(pt 448 208)
+	(bus)
+)
+(connector
+	(pt 96 32)
+	(pt 120 32)
+)
+(connector
+	(pt 120 32)
+	(pt 120 -152)
+)
+(connector
+	(pt 120 -152)
+	(pt 144 -152)
+)
+(connector
+	(pt 296 -152)
+	(pt 296 -136)
+	(bus)
+)
+(connector
+	(pt 296 -136)
+	(pt 296 -120)
+	(bus)
+)
+(connector
+	(pt 296 -120)
+	(pt 296 -104)
+	(bus)
+)
+(connector
+	(pt 296 -152)
+	(pt 432 -152)
+	(bus)
+)
+(connector
+	(pt 392 -360)
+	(pt 432 -360)
+	(bus)
+)
+(connector
+	(pt 432 -360)
+	(pt 432 -152)
+	(bus)
+)
+(connector
+	(text "AMARILLO[0..3]" (rect 416 -110 428 -30)(font "Arial" )(vertical))
+	(pt 432 -152)
+	(pt 432 -16)
+	(bus)
+)
 (junction (pt 432 192))
 (junction (pt 432 296))
 (junction (pt 448 208))
@@ -1029,20 +1225,24 @@ applicable agreement for further details.
 (junction (pt 448 0))
 (junction (pt 552 520))
 (junction (pt 552 312))
-(junction (pt 408 256))
 (junction (pt 552 208))
-(junction (pt 408 152))
 (junction (pt 552 0))
 (junction (pt 560 504))
 (junction (pt 560 296))
 (junction (pt 560 192))
-(junction (pt 560 -16))
 (junction (pt 408 104))
 (junction (pt -24 16))
 (junction (pt 640 0))
 (junction (pt 640 32))
 (junction (pt 720 360))
 (junction (pt 640 312))
+(junction (pt 568 -16))
+(junction (pt 408 256))
+(junction (pt 408 152))
+(junction (pt 296 -136))
+(junction (pt 296 -120))
+(junction (pt 296 -152))
+(junction (pt 432 -152))
 (text "S4" (rect 688 440 719 464)(font "Arial" (font_size 16)))
 (text "S3" (rect 688 232 719 256)(font "Arial" (font_size 16)))
 (text "S2" (rect 696 120 727 144)(font "Arial" (font_size 16)))
