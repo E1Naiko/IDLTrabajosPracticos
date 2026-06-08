@@ -935,10 +935,6 @@ applicable agreement for further details.
 	(pt 688 264)
 )
 (connector
-	(pt 680 -16)
-	(pt 680 -24)
-)
-(connector
 	(pt 680 184)
 	(pt 680 192)
 )
@@ -1044,15 +1040,6 @@ applicable agreement for further details.
 	(pt 640 0)
 )
 (connector
-	(text "AMARILLO[0]" (rect 474 -32 541 -20)(font "Arial" ))
-	(pt 432 -16)
-	(pt 568 -16)
-)
-(connector
-	(pt 568 -16)
-	(pt 680 -16)
-)
-(connector
 	(pt 552 -48)
 	(pt 568 -48)
 )
@@ -1129,11 +1116,6 @@ applicable agreement for further details.
 	(pt 568 -56)
 )
 (connector
-	(pt 432 -16)
-	(pt 432 192)
-	(bus)
-)
-(connector
 	(pt 112 -376)
 	(pt 128 -376)
 )
@@ -1154,22 +1136,6 @@ applicable agreement for further details.
 	(pt 232 -344)
 )
 (connector
-	(pt 448 -376)
-	(pt 392 -376)
-	(bus)
-)
-(connector
-	(text "VERDE[0..3]" (rect 431 -105 443 -42)(font "Arial" )(vertical))
-	(pt 448 -376)
-	(pt 448 0)
-	(bus)
-)
-(connector
-	(pt 448 0)
-	(pt 448 208)
-	(bus)
-)
-(connector
 	(pt 96 32)
 	(pt 120 32)
 )
@@ -1182,23 +1148,44 @@ applicable agreement for further details.
 	(pt 144 -152)
 )
 (connector
-	(pt 296 -152)
 	(pt 296 -136)
-	(bus)
-)
-(connector
-	(pt 296 -136)
-	(pt 296 -120)
-	(bus)
+	(pt 376 -136)
 )
 (connector
 	(pt 296 -120)
+	(pt 376 -120)
+)
+(connector
+	(pt 376 -136)
+	(pt 376 -120)
+	(bus)
+)
+(connector
+	(pt 376 -120)
+	(pt 376 -104)
+	(bus)
+)
+(connector
 	(pt 296 -104)
-	(bus)
+	(pt 376 -104)
 )
 (connector
 	(pt 296 -152)
-	(pt 432 -152)
+	(pt 376 -152)
+)
+(connector
+	(pt 376 -192)
+	(pt 376 -152)
+	(bus)
+)
+(connector
+	(pt 376 -152)
+	(pt 376 -136)
+	(bus)
+)
+(connector
+	(pt 432 -16)
+	(pt 432 192)
 	(bus)
 )
 (connector
@@ -1207,14 +1194,48 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 432 -360)
-	(pt 432 -152)
+	(pt 376 -192)
+	(pt 432 -192)
+	(bus)
+)
+(connector
+	(pt 392 -376)
+	(pt 448 -376)
+	(bus)
+)
+(connector
+	(pt 448 0)
+	(pt 448 208)
+	(bus)
+)
+(connector
+	(text "VERDE[0..3]" (rect 431 -105 443 -42)(font "Arial" )(vertical))
+	(pt 448 -376)
+	(pt 448 0)
 	(bus)
 )
 (connector
 	(text "AMARILLO[0..3]" (rect 416 -110 428 -30)(font "Arial" )(vertical))
-	(pt 432 -152)
+	(pt 432 -192)
 	(pt 432 -16)
+	(bus)
+)
+(connector
+	(pt 680 -24)
+	(pt 680 -16)
+)
+(connector
+	(text "AMARILLO[0]" (rect 474 -32 541 -20)(font "Arial" ))
+	(pt 432 -16)
+	(pt 568 -16)
+)
+(connector
+	(pt 568 -16)
+	(pt 680 -16)
+)
+(connector
+	(pt 432 -360)
+	(pt 432 -192)
 	(bus)
 )
 (junction (pt 432 192))
@@ -1239,10 +1260,10 @@ applicable agreement for further details.
 (junction (pt 568 -16))
 (junction (pt 408 256))
 (junction (pt 408 152))
-(junction (pt 296 -136))
-(junction (pt 296 -120))
-(junction (pt 296 -152))
-(junction (pt 432 -152))
+(junction (pt 376 -152))
+(junction (pt 376 -136))
+(junction (pt 376 -120))
+(junction (pt 432 -192))
 (text "S4" (rect 688 440 719 464)(font "Arial" (font_size 16)))
 (text "S3" (rect 688 232 719 256)(font "Arial" (font_size 16)))
 (text "S2" (rect 696 120 727 144)(font "Arial" (font_size 16)))
