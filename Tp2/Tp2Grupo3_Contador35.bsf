@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 160 208)
+	(rect 16 16 160 240)
 	(text "Tp2Grupo3_Contador35" (rect 5 0 141 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 176 25 188)(font "Arial" ))
+	(text "inst" (rect 8 208 25 220)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -75,25 +75,32 @@ applicable agreement for further details.
 	(port
 		(pt 144 128)
 		(output)
-		(text "PulsoSinc" (rect 0 0 55 14)(font "Arial" (font_size 8)))
-		(text "PulsoSinc" (rect 68 123 123 137)(font "Arial" (font_size 8)))
+		(text "CLEAR" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "CLEAR" (rect 83 123 123 137)(font "Arial" (font_size 8)))
 		(line (pt 144 128)(pt 128 128))
 	)
 	(port
 		(pt 144 144)
 		(output)
-		(text "Amarillo35p" (rect 0 0 66 14)(font "Arial" (font_size 8)))
-		(text "Amarillo35p" (rect 57 139 123 153)(font "Arial" (font_size 8)))
+		(text "PulsoSinc" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "PulsoSinc" (rect 68 139 123 153)(font "Arial" (font_size 8)))
 		(line (pt 144 144)(pt 128 144))
 	)
 	(port
 		(pt 144 160)
 		(output)
-		(text "Verde30p" (rect 0 0 56 14)(font "Arial" (font_size 8)))
-		(text "Verde30p" (rect 67 155 123 169)(font "Arial" (font_size 8)))
+		(text "Amarillo35p" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "Amarillo35p" (rect 57 155 123 169)(font "Arial" (font_size 8)))
 		(line (pt 144 160)(pt 128 160))
 	)
+	(port
+		(pt 144 176)
+		(output)
+		(text "Verde30p" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "Verde30p" (rect 67 171 123 185)(font "Arial" (font_size 8)))
+		(line (pt 144 176)(pt 128 176))
+	)
 	(drawing
-		(rectangle (rect 16 16 128 176))
+		(rectangle (rect 16 16 128 208))
 	)
 )

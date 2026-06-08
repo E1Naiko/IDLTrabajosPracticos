@@ -21,25 +21,9 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 248 248 416 264)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A" (rect 5 0 14 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
 	(rect 248 272 416 288)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B" (rect 5 0 13 12)(font "Arial" ))
+	(text "B" (rect 5 0 12 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 248 296 416 312)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "C" (rect 5 0 14 12)(font "Arial" ))
+	(text "C" (rect 5 0 13 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 248 320 416 336)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "X" (rect 5 0 11 12)(font "Arial" ))
+	(text "X" (rect 5 0 10 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -189,23 +173,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 448 176 480 208)
-	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
-	(text "inst4" (rect 3 21 26 33)(font "Arial" )(invisible))
-	(port
-		(pt 16 0)
-		(output)
-		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
-		(line (pt 16 8)(pt 16 0))
-	)
-	(drawing
-		(line (pt 8 8)(pt 16 16))
-		(line (pt 16 16)(pt 24 8))
-		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
 	(rect 480 360 544 408)
 	(text "XOR" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst5" (rect 3 37 26 49)(font "Arial" ))
@@ -291,22 +258,6 @@ applicable agreement for further details.
 (connector
 	(pt 480 304)
 	(pt 496 304)
-)
-(connector
-	(pt 416 256)
-	(pt 432 256)
-)
-(connector
-	(pt 432 256)
-	(pt 432 168)
-)
-(connector
-	(pt 464 176)
-	(pt 464 168)
-)
-(connector
-	(pt 464 168)
-	(pt 432 168)
 )
 (connector
 	(pt 416 392)
