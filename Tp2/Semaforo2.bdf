@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 576 104 752 120)
+	(rect 576 224 752 240)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Verde" (rect 90 0 118 12)(font "Arial" ))
 	(pt 0 8)
@@ -85,7 +85,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 576 224 752 240)
+	(rect 576 104 752 120)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Amarillo" (rect 90 0 128 12)(font "Arial" ))
 	(pt 0 8)
@@ -97,46 +97,6 @@ applicable agreement for further details.
 		(line (pt 78 4)(pt 82 8))
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
-	)
-)
-(symbol
-	(rect 512 208 576 256)
-	(text "NAND3" (rect 1 0 32 10)(font "Arial" (font_size 6)))
-	(text "inst" (rect 3 37 20 49)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 16 16))
-	)
-	(port
-		(pt 0 24)
-		(input)
-		(text "IN2" (rect 2 15 19 27)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 15 19 27)(font "Courier New" (bold))(invisible))
-		(line (pt 0 24)(pt 16 24))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN3" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN3" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 52 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 16 37)(pt 32 37))
-		(line (pt 16 12)(pt 32 12))
-		(line (pt 16 36)(pt 16 12))
-		(arc (pt 32 36)(pt 32 12)(rect 20 12 45 37))
-		(circle (rect 44 20 52 28))
 	)
 )
 (symbol
@@ -254,25 +214,49 @@ applicable agreement for further details.
 		(circle (rect 31 12 39 20))
 	)
 )
-(connector
-	(pt 512 240)
-	(pt 504 240)
-)
-(connector
-	(pt 504 240)
-	(pt 504 256)
+(symbol
+	(rect 512 208 576 256)
+	(text "NAND3" (rect 1 0 32 10)(font "Arial" (font_size 6)))
+	(text "inst6" (rect 3 37 26 49)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 16 16))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "IN2" (rect 2 15 19 27)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 15 19 27)(font "Courier New" (bold))(invisible))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN3" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN3" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(line (pt 52 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 16 37)(pt 32 37))
+		(line (pt 16 12)(pt 32 12))
+		(line (pt 16 36)(pt 16 12))
+		(arc (pt 32 36)(pt 32 12)(rect 20 12 45 37))
+		(circle (rect 44 20 52 28))
+	)
 )
 (connector
 	(pt 504 256)
 	(pt 496 256)
-)
-(connector
-	(pt 512 224)
-	(pt 504 224)
-)
-(connector
-	(pt 504 224)
-	(pt 504 208)
 )
 (connector
 	(pt 504 208)
@@ -311,24 +295,12 @@ applicable agreement for further details.
 	(pt 368 208)
 )
 (connector
-	(pt 512 232)
-	(pt 384 232)
-)
-(connector
 	(pt 512 112)
 	(pt 384 112)
 )
 (connector
 	(pt 352 128)
 	(pt 384 128)
-)
-(connector
-	(pt 384 112)
-	(pt 384 128)
-)
-(connector
-	(pt 384 128)
-	(pt 384 232)
 )
 (connector
 	(pt 512 120)
@@ -349,6 +321,34 @@ applicable agreement for further details.
 (connector
 	(pt 400 152)
 	(pt 400 256)
+)
+(connector
+	(pt 504 240)
+	(pt 512 240)
+)
+(connector
+	(pt 504 256)
+	(pt 504 240)
+)
+(connector
+	(pt 504 224)
+	(pt 512 224)
+)
+(connector
+	(pt 504 208)
+	(pt 504 224)
+)
+(connector
+	(pt 384 232)
+	(pt 512 232)
+)
+(connector
+	(pt 384 112)
+	(pt 384 128)
+)
+(connector
+	(pt 384 128)
+	(pt 384 232)
 )
 (junction (pt 368 104))
 (junction (pt 384 128))

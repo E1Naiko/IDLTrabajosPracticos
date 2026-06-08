@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 576 104 752 120)
+	(rect 576 168 752 184)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Verde" (rect 90 0 118 12)(font "Arial" ))
 	(pt 0 8)
@@ -85,7 +85,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 576 168 752 184)
+	(rect 576 104 752 120)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Amarillo" (rect 90 0 128 12)(font "Arial" ))
 	(pt 0 8)
