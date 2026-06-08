@@ -47,7 +47,7 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name BDF_FILE Tp2Grupo3.bdf
 set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "D:/Escritorio/IDLTrabajosPracticos/Tp2/simulation/qsim/" -section_id eda_simulation
-set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name BDF_FILE Tp2Grupo3_Contador35.bdf
 set_global_assignment -name BDF_FILE Tp2Grupo3_Peatonal.bdf
 set_global_assignment -name BDF_FILE Tp2Grupo3_Semaforo.bdf
@@ -62,3 +62,4 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform12.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name BDF_FILE DecodificadorSemaforo.bdf
