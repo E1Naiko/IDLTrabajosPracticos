@@ -37,9 +37,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 816 56 992 72)
+	(rect 816 88 992 104)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "A" (rect 90 0 98 12)(font "Arial" ))
+	(text "D0" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(output)
 	(rect 816 72 992 88)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "B" (rect 90 0 97 12)(font "Arial" ))
+	(text "D1" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -69,9 +69,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 816 88 992 104)
+	(rect 816 56 992 72)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "C" (rect 90 0 98 12)(font "Arial" ))
+	(text "D2" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
