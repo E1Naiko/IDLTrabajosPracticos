@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 192 144)
-	(text "AsumB" (rect 5 0 46 14)(font "Arial" (font_size 8)))
+	(text "AsubB" (rect 5 0 43 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -61,15 +61,15 @@ applicable agreement for further details.
 	(port
 		(pt 176 80)
 		(output)
-		(text "Z" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "Z" (rect 147 75 155 89)(font "Arial" (font_size 8)))
+		(text "N" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "N" (rect 147 75 155 89)(font "Arial" (font_size 8)))
 		(line (pt 176 80)(pt 160 80))
 	)
 	(port
 		(pt 176 96)
 		(output)
-		(text "N" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "N" (rect 147 91 155 105)(font "Arial" (font_size 8)))
+		(text "Z" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "Z" (rect 147 91 155 105)(font "Arial" (font_size 8)))
 		(line (pt 176 96)(pt 160 96))
 	)
 	(drawing
