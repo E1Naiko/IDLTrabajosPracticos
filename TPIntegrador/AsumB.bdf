@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 488 80 504 248)
 	(text "INPUT" (rect 6 125 16 153)(font "Arial" (font_size 6))(vertical))
-	(text "A[0..3]" (rect 5 5 17 39)(font "Arial" )(vertical))
+	(text "A[0..3]" (rect 5 5 17 38)(font "Arial" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -40,7 +40,7 @@ applicable agreement for further details.
 	(input)
 	(rect 512 80 528 248)
 	(text "INPUT" (rect 6 125 16 153)(font "Arial" (font_size 6))(vertical))
-	(text "B[0..3]" (rect 4 5 16 39)(font "Arial" )(vertical))
+	(text "B[0..3]" (rect 4 5 16 38)(font "Arial" )(vertical))
 	(pt 8 168)
 	(drawing
 		(line (pt 4 84)(pt 4 109))
@@ -72,7 +72,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 928 704 1104 720)
+	(rect 952 704 1128 720)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Z" (rect 90 0 97 12)(font "Arial" ))
 	(pt 0 8)
@@ -105,7 +105,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 856 624 1032 640)
+	(rect 888 624 1064 640)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "C" (rect 90 0 98 12)(font "Arial" ))
 	(pt 0 8)
@@ -342,7 +342,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 864 672 928 752)
+	(rect 888 672 952 752)
 	(text "NOR4" (rect 1 0 26 10)(font "Arial" (font_size 6)))
 	(text "inst7" (rect 3 69 26 81)(font "Arial" ))
 	(port
@@ -404,10 +404,6 @@ applicable agreement for further details.
 	(pt 712 368)
 )
 (connector
-	(pt 704 520)
-	(pt 712 520)
-)
-(connector
 	(pt 712 520)
 	(pt 712 592)
 )
@@ -456,10 +452,6 @@ applicable agreement for further details.
 	(pt 584 592)
 )
 (connector
-	(pt 712 368)
-	(pt 712 296)
-)
-(connector
 	(pt 824 600)
 	(pt 824 632)
 )
@@ -502,12 +494,102 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
+	(text "Resultado[1]" (rect 714 408 776 420)(font "Arial" ))
+	(pt 704 424)
+	(pt 792 424)
+)
+(connector
+	(text "Resultado[2]" (rect 714 520 776 532)(font "Arial" ))
+	(pt 704 536)
+	(pt 792 536)
+)
+(connector
+	(text "Resultado[0..3]" (rect 775 573 787 648)(font "Arial" )(vertical))
+	(pt 792 536)
+	(pt 792 648)
+	(bus)
+)
+(connector
+	(pt 704 648)
+	(pt 720 648)
+)
+(connector
+	(text "Resultado[3]" (rect 714 632 776 644)(font "Arial" ))
+	(pt 720 648)
+	(pt 792 648)
+)
+(connector
+	(pt 720 648)
+	(pt 720 752)
+)
+(connector
 	(pt 704 632)
 	(pt 824 632)
 )
 (connector
 	(pt 824 632)
-	(pt 856 632)
+	(pt 888 632)
+)
+(connector
+	(pt 704 520)
+	(pt 712 520)
+)
+(connector
+	(pt 712 520)
+	(pt 824 520)
+)
+(connector
+	(pt 824 584)
+	(pt 824 520)
+)
+(connector
+	(pt 792 648)
+	(pt 792 688)
+	(bus)
+)
+(connector
+	(pt 792 688)
+	(pt 792 704)
+	(bus)
+)
+(connector
+	(pt 792 704)
+	(pt 792 720)
+	(bus)
+)
+(connector
+	(pt 792 720)
+	(pt 792 736)
+	(bus)
+)
+(connector
+	(pt 792 736)
+	(pt 792 752)
+	(bus)
+)
+(connector
+	(text "Resultado[0]" (rect 826 672 888 684)(font "Arial" ))
+	(pt 792 688)
+	(pt 888 688)
+)
+(connector
+	(text "Resultado[2]" (rect 826 704 888 716)(font "Arial" ))
+	(pt 792 720)
+	(pt 888 720)
+)
+(connector
+	(text "Resultado[1]" (rect 826 688 888 700)(font "Arial" ))
+	(pt 792 704)
+	(pt 888 704)
+)
+(connector
+	(text "Resultado[3]" (rect 826 720 888 732)(font "Arial" ))
+	(pt 792 736)
+	(pt 888 736)
+)
+(connector
+	(pt 712 368)
+	(pt 712 296)
 )
 (connector
 	(text "A[0]" (rect 506 296 526 308)(font "Arial" ))
@@ -518,6 +600,10 @@ applicable agreement for further details.
 	(text "B[0]" (rect 530 312 550 324)(font "Arial" ))
 	(pt 520 328)
 	(pt 592 328)
+)
+(connector
+	(pt 712 296)
+	(pt 704 296)
 )
 (connector
 	(pt 496 248)
@@ -540,105 +626,19 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 824 584)
-	(pt 824 296)
+	(pt 792 312)
+	(pt 792 424)
+	(bus)
 )
 (connector
-	(pt 704 296)
-	(pt 712 296)
-)
-(connector
-	(pt 712 296)
-	(pt 824 296)
+	(pt 792 424)
+	(pt 792 536)
+	(bus)
 )
 (connector
 	(text "Resultado[0]" (rect 714 296 776 308)(font "Arial" ))
 	(pt 704 312)
 	(pt 792 312)
-)
-(connector
-	(text "Resultado[1]" (rect 714 408 776 420)(font "Arial" ))
-	(pt 704 424)
-	(pt 792 424)
-)
-(connector
-	(text "Resultado[2]" (rect 714 520 776 532)(font "Arial" ))
-	(pt 704 536)
-	(pt 792 536)
-)
-(connector
-	(text "Resultado[0]" (rect 802 672 864 684)(font "Arial" ))
-	(pt 864 688)
-	(pt 792 688)
-)
-(connector
-	(pt 792 312)
-	(pt 792 424)
-	(bus)
-)
-(connector
-	(pt 792 424)
-	(pt 792 536)
-	(bus)
-)
-(connector
-	(text "Resultado[0..3]" (rect 776 574 788 649)(font "Arial" )(vertical))
-	(pt 792 536)
-	(pt 792 648)
-	(bus)
-)
-(connector
-	(pt 792 648)
-	(pt 792 688)
-	(bus)
-)
-(connector
-	(pt 792 688)
-	(pt 792 704)
-	(bus)
-)
-(connector
-	(text "Resultado[1]" (rect 802 688 864 700)(font "Arial" ))
-	(pt 864 704)
-	(pt 792 704)
-)
-(connector
-	(pt 792 704)
-	(pt 792 720)
-	(bus)
-)
-(connector
-	(text "Resultado[2]" (rect 802 704 864 716)(font "Arial" ))
-	(pt 864 720)
-	(pt 792 720)
-)
-(connector
-	(text "Resultado[3]" (rect 802 720 864 732)(font "Arial" ))
-	(pt 864 736)
-	(pt 792 736)
-)
-(connector
-	(pt 792 720)
-	(pt 792 736)
-	(bus)
-)
-(connector
-	(pt 792 736)
-	(pt 792 752)
-	(bus)
-)
-(connector
-	(pt 704 648)
-	(pt 720 648)
-)
-(connector
-	(text "Resultado[3]" (rect 714 632 776 644)(font "Arial" ))
-	(pt 720 648)
-	(pt 792 648)
-)
-(connector
-	(pt 720 648)
-	(pt 720 752)
 )
 (junction (pt 496 312))
 (junction (pt 496 424))
@@ -655,4 +655,4 @@ applicable agreement for further details.
 (junction (pt 792 704))
 (junction (pt 792 720))
 (junction (pt 792 736))
-(junction (pt 712 296))
+(junction (pt 712 520))
