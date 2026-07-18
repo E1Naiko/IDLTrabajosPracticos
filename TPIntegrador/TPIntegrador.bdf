@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 48 208 216 224)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B[3..0]" (rect 5 0 39 12)(font "Arial" ))
+	(text "B[3..0]" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -103,7 +103,7 @@ applicable agreement for further details.
 	(input)
 	(rect 64 -48 232 -32)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A[3..0]" (rect 5 0 39 12)(font "Arial" ))
+	(text "A[3..0]" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -2469,12 +2469,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "L[3..0]" (rect 354 -72 385 -60)(font "Arial" ))
-	(pt 384 -56)
-	(pt 344 -56)
-	(bus)
-)
-(connector
 	(pt 232 -72)
 	(pt 216 -72)
 	(bus)
@@ -2483,6 +2477,12 @@ applicable agreement for further details.
 	(text "SALIDAS[3..0]" (rect 276 -216 347 -204)(font "Arial" ))
 	(pt 1064 -200)
 	(pt 216 -200)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS224>>" (rect 354 -72 472 -60)(font "Arial" )(invisible))
+	(pt 384 -56)
+	(pt 344 -56)
 	(bus)
 )
 (junction (pt 616 216))
