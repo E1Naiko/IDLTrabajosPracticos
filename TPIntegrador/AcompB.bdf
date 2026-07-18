@@ -795,6 +795,21 @@ applicable agreement for further details.
 	(pt 704 968)
 )
 (connector
+	(pt 360 640)
+	(pt 360 752)
+	(bus)
+)
+(connector
+	(pt 360 752)
+	(pt 360 864)
+	(bus)
+)
+(connector
+	(text "B[3]" (rect 370 848 390 860)(font "Arial" ))
+	(pt 360 864)
+	(pt 440 864)
+)
+(connector
 	(text "A[3]" (rect 338 832 358 844)(font "Arial" ))
 	(pt 504 848)
 	(pt 328 848)
@@ -807,21 +822,6 @@ applicable agreement for further details.
 (connector
 	(pt 328 736)
 	(pt 328 848)
-	(bus)
-)
-(connector
-	(text "B[3]" (rect 370 848 390 860)(font "Arial" ))
-	(pt 440 864)
-	(pt 360 864)
-)
-(connector
-	(pt 360 640)
-	(pt 360 752)
-	(bus)
-)
-(connector
-	(pt 360 752)
-	(pt 360 864)
 	(bus)
 )
 (junction (pt 760 888))
